@@ -1,2 +1,2 @@
 <input class="task-input" placeholder="Enter your message here" [(ngModel)]="currentMessageName" (keyup.enter)="addNewMessage()">
-<div *ngFor="let message of messages" >{{ message }}</div>
+<div *ngFor="let id of messagesIds " >{{ messages[id] }}</div>
