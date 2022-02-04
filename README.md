@@ -13,4 +13,4 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## See other
 
 [Long Polling](https://github.com/Sannet0/real-time-data-transmission-fe/tree/long-polling)
-[Websocket](https://github.com/Sannet0/real-time-data-transmission-fe/tree/websocket)
+[Websocket](https://github.com/Sannet0/real-time-data-transmission-fe/tree/websockets)
