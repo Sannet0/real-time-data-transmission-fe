@@ -9,7 +9,11 @@ export class ApiService {
   constructor(private httpService: HttpService) {
   }
 
-  addNewMessage(message: string) {
+  connect() {
     return this.httpService.get('');
+  }
+
+  addNewMessage(message: string) {
+    return this.httpService.post('', { message });
   }
 }

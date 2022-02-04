@@ -9,6 +9,10 @@ export class MessageService {
   constructor(private apiService: ApiService) {
   }
 
+  connect() {
+    return this.apiService.connect();
+  }
+
   addNewMessage(message: string) {
     return this.apiService.addNewMessage(message);
   }
