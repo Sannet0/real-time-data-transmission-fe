@@ -10,6 +10,6 @@ export class ApiService {
   }
 
   addNewMessage(message: string) {
-    return this.httpService.get('');
+    return this.httpService.post('', { message });
   }
 }
